@@ -1,0 +1,65 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.rem{
+  list-style-type: none;
+  background-color: #121111;
+  margin-right: 10px;
+  padding: 10px;
+  margin: 0 auto;
+}
+.rem a{
+  text-decoration: none; /* remove underline from links */
+  color: white;
+}
+.mn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Center the footer */
+  padding-left: 80px;
+}
+
+.ft {
+  text-align: center;
+}
+.container {
+  input[type="email"],
+  input[type="tel"],
+  input[type="url"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  label {
+    color: #333;
+    font-weight: bold;
+  }
+}
+
+/* .loader { 
+    .loader label,
+    .loader input[type="file"] {
+        width: 100%;
+        padding: 8px;
+        margin: 5px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+    .loader input[type="file"] {
+        background-color: #f0f0f0;
+        color: #333;
+    }
+} */
+
+input{
+  padding: 10px;
+  margin: 0 auto;
+}
